@@ -6,7 +6,7 @@
     <OutputType>Library</OutputType>
     <TargetFrameworks>net45;netstandard1.6</TargetFrameworks>
     <TargetFrameworks Condition="'$(OS)' == 'Unix'">netstandard1.6</TargetFrameworks>
-    <IsPackable>true</IsPackable>
+    <IsPackable Condition="$(TargetFrameworks.Contains('net45'))">true</IsPackable>
     <PackageId>FSharp.Core</PackageId>
     <PackageVersion>$(FSCorePackageVersion)</PackageVersion>
     <NuspecFile>FSharp.Core.nuspec</NuspecFile>

@@ -5,10 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <SwrProperty Include="FSharpPackageVersion=$(FSharpPackageVersion)" />
     <SwrProperty Include="ProjectDir=$(MSBuildThisFileDirectory)" />
     <SwrProperty Include="SetupShimsDir=$(MSBuildThisFileDirectory)..\..\shims" />
     <SwrProperty Include="VSGeneralVersion=$(VSGeneralVersion)" />
+    <SwrProperty Include="VsixVersion=$(VsixVersion)" />
   </ItemGroup>
 
   <ItemGroup>

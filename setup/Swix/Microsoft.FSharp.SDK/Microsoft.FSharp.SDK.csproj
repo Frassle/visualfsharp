@@ -12,8 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <SwrProperty Include="FSharpPackageVersion=$(FSharpPackageVersion)" />
     <SwrProperty Include="PackagesFolder=$(NuGetPackageRoot)" />
+    <SwrProperty Include="VsixVersion=$(VsixVersion)" />
   </ItemGroup>
 
   <ItemGroup>

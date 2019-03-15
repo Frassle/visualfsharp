@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <SwrProperty Include="FSharpPackageVersion=$(FSharpPackageVersion)" />
     <SwrProperty Include="SetupResourcesDir=$(MSBuildThisFileDirectory)..\..\resources" />
+    <SwrProperty Include="VsixVersion=$(VsixVersion)" />
   </ItemGroup>
 
   <ItemGroup>

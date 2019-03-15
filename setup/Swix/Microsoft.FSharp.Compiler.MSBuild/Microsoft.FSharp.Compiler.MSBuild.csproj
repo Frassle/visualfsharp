@@ -79,11 +79,11 @@ folder "InstallDir:Common7\IDE\CommonExtensions\Microsoft\FSharp\%(_XlfLanguages
         <![CDATA[use vs
 
 package name=Microsoft.FSharp.Compiler
-        version=$(FSharpPackageVersion)
+        version=$(VsixVersion)
 
 vs.dependencies
   vs.dependency id=Microsoft.FSharp.Dependencies
-                version=$(FSharpPackageVersion)
+                version=$(VsixVersion)
                 type=Required
 
 folder "InstallDir:Common7\IDE\CommonExtensions\Microsoft\FSharp"
